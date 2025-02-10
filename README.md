@@ -29,7 +29,6 @@
 | `uint16_t` | 158 ms   | 37.97 MB/s   |
 | `uint32_t` | 86 ms    | 69.77 MB/s   |
 | `uint64_t` | 52 ms    | 115.38 MB/s  |
-|------------|----------|--------------|
 
 ### **6MB Read Test**
 | Data Type  | Time (ms) | Speed (MB/s) |
@@ -38,7 +37,7 @@
 | `uint16_t` | 240 ms   | 25.00 MB/s   |
 | `uint32_t` | 117 ms   | 51.28 MB/s   |
 | `uint64_t` | 74 ms    | 81.08 MB/s   |
-|------------|----------|--------------|
+
 ---
 ## ✅ SD Card Speed Test (BSP FatFs SDMMC WideBus DMA)
 
@@ -54,7 +53,7 @@
 | 32KB       | 6249.35 KB/s       |
 | 64KB       | ❌ **Error: Failed to open/create file!** |
 | 56KB       | 9524.16 KB/s       |
-|------------|--------------------|
+
 
 ### **4-bit WideBus (50MHz), 20MB File Test**
 - **Format Time:** 1284 ms
